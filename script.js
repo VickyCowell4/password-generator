@@ -153,7 +153,7 @@ var specialCharacters = [
   
     if (options.specialChar) {
       allPossibleChars = allPossibleChars.concat(specialCharacters);
-      allGuaranteedChars.push(getRandom(specialCharactersOption))
+      allGuaranteedChars.push(getRandom(specialCharacters))
     }
     if (options.numbers){
       allPossibleChars = allPossibleChars.concat(numericCharacters);
